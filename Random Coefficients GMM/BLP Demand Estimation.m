@@ -107,3 +107,4 @@ sigma_star = fminunc(@(sigma)ObjFuncCalc(sigma,data),sigma_0,options_unc);
 
 %Now use Sigma_hat to find other parameters
 [J_star, gamma_star, alpha_star, beta_star] = ObjFuncCalc(sigma_star,data);
+
